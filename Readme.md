@@ -1,4 +1,8 @@
-# Prerequisite
+## README
+
+## [中文参考](./README-CN.md)
+
+## Prerequisite
 
 1. Download and install [LLVM-3.4](http://www.llvm.org) and the Clang frontend (version 3.4) following the instructions given in the [Getting Started](http://llvm.org/releases/3.4/docs/GettingStarted.html) manual.
   - Compile LLVM with the debug flag set (e.g. `./configure --disable-optimized` followed by `make -j4`)
@@ -6,14 +10,14 @@
 3. Check, if the HelloWorld Example is working. (optionally)
 
 
-# Build Instructions
+## Build Instructions
 
 1. Create a new directory in `/path_to_llvm_directory/build/lib/Transforms`.
 2. Clone the code of DFGenTool into that directory.
 3. Execute `make` in the newly created directory `DFGenTool`.
 4. A shared object file named `loop_graph_analysis_0.so` will be created in `/path_to_llvm_directory/build/Debug+Asserts/lib`.
 
-# Using DFGenTool
+## Using DFGenTool
 
 Examples are supplied in the `example` directory of the repository (currently residing in `/path_to_llvm_directory/build/lib/Transforms/DFGenTool/`). In this section we walk through the `simpleAdder`
 
