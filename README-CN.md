@@ -23,6 +23,6 @@
 
 ## DFGenTool
 
-+ clone code from [DFGenTool](https://github.com/manideepam/DFGenTool) into build/lib/Transforms/DFGenTool
-+ 修改 build/lib/Transforms 下的 Makefile 添加 DFGenTool
-+ 切换到 build 目录，重新执行 `../llvm/configure  --disable-optmized`
++ clone code from [DFGenTool](https://github.com/misc-research/DFGenTool) into build/lib/Transforms/DFGenTool
++ 切换到 build/lib/Transforms/DFGenTool 目录下，执行 `make`
++ 其他步骤，参考 [README](./Readme.md)
