@@ -24,5 +24,5 @@
 ## DFGenTool
 
 + clone code from [DFGenTool](https://github.com/misc-research/DFGenTool) into build/lib/Transforms/DFGenTool
-+ 切换到 build/lib/Transforms/DFGenTool 目录下，执行 `make`
++ 切换到 build/lib/Transforms 目录，修改 Makefile，在 ObjCARC 加 DFGenTool，然后执行 make
 + 其他步骤，参考 [README](./Readme.md) 里面的clang路径和module路径不对，需要自己找
